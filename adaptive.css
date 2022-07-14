@@ -1,0 +1,250 @@
+@media only screen and (max-width : 1496px) {
+    .wrapper {
+        height: 330vh;
+    }
+}
+
+@media only screen and (max-width : 1280px) {
+    .wrapper {
+        width: 100wh;
+        height: 1580px;
+    }
+    .container {
+        height: 1480px;
+    }
+    .daily {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .daily-statistics--container {
+        width: 410px;
+    }
+
+    .stats {
+        margin-top: 500px;
+    }
+
+    .online-container {
+        margin-top: 450px;
+        flex-direction: column;
+    }
+    .online-container--day {
+        margin-left: 0px;
+        }
+        .online-container--week {
+            margin-right: 0px;
+            margin-top: 100px;
+        }
+        .stats-content--bottom {
+            top: 40px;
+        }
+}
+@media only screen and (max-width : 1024px) {
+    .wrapper {
+        height: 1980px;
+    }
+    .container {
+        height: 1880px;
+    }
+    .daily {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .stats-content--bottom {
+        top: 40px;
+    }
+    .stats {
+        margin-top: 500px;
+    }
+    .online-container {
+        flex-direction: column;
+        margin-top: 450px;
+    }
+    .online-container--day {
+    margin-left: 0px;
+    }
+    .online-container--week {
+        margin-right: 0px;
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width : 821px)  {
+    .wrapper {
+        height: 100wh;
+    }
+    .container {
+        height: 1680px;
+    }
+}
+
+
+@media only screen and (max-width : 800px)  {
+    .daily {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper {
+        height: 1980px;
+    }
+    .container {
+        height: 1880px;
+    }
+    .stats {
+        margin-top: 900px;
+    }
+}
+@media only screen and (max-width : 768px)  {
+    .wrapper {
+        width: 103%;
+    }
+    .stats {
+        width: 90%;
+    }
+    .stats-content--top {
+        font-size: 30px;
+    }
+    .stats-content--bottom {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width : 600px)  {}
+@media only screen and (max-width : 533px)  {
+    .stats-content--bottom {
+        font-size: 12px;
+    }
+    .stats-content--top {
+        font-size: 27px;
+    }
+    .online-container--day {
+        width: 300px;
+        height: 100px;
+    }
+    .online-container--week {
+        width: 300px;
+        height: 100px;
+    }
+    .online-container--day h1 {
+        font-size: 35px;
+    }
+    .online-container--week h1 {
+        font-size: 35px;
+    }
+    .online-container--day p {
+        font-size: 17px;
+        bottom: -50px;
+    }
+    .online-container--week p {
+        font-size: 17px;
+        bottom: -50px;
+    }
+    .wrapper {
+        width: 105%;
+    }
+}
+@media only screen and (max-width : 360px)  {
+    .daily-info {
+        padding: 12px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .daily-statistics--container {
+        width: 360px;
+    }
+    .stats-content--top {
+        top: -150px;
+        font-size: 35px;
+    }
+    .stats-content--container {
+    height: 220px;
+    }
+    .wrapper {
+        height: 2980px;
+        width: 108%;
+    }
+    .container {
+        height: 2880px;
+    }
+    .stats {
+        height: 900px;
+    }
+    .one {
+        position: relative;
+        top: -300px;
+    }
+    .two {
+        position: relative;
+        top: -200px;
+    }
+    .three {
+        position: relative;
+        top: -100px;
+    }
+    .four {
+        position: relative;
+        top: 0px;
+    }
+    .five {
+        position: relative;
+        top: 100px;
+    }
+    .six {
+        position: relative;
+        top: 170px;
+    }
+    .one-log {
+        position: relative;
+        top: -250px;
+        font-size: 20px;
+    }
+    .two-log {
+        position: relative;
+        top: -150px;
+        font-size: 20px;
+    }
+    .three-log {
+        position: relative;
+        top: -50px;
+        font-size: 20px;
+    }
+    .four-log {
+        position: relative;
+        font-size: 20px;
+        top: 50px;
+    }
+    .five-log {
+        position: relative;
+        font-size: 20px;
+        top: 130px;
+    }
+    .six-log {
+        position: relative;
+        font-size: 20px;
+        top: 200px;
+    }
+    .stats-content--container {
+        flex-direction: column;
+    }
+    .stats {
+        width: 50%;
+    }
+}
+@media only screen and (max-width : 320px)  {
+    .wrapper {
+        width: 129%;
+    }
+}
+@media only screen and (max-width : 240px)  {
+    .wrapper {
+        width: 157%;
+    }
+    .daily-info {
+        padding-right: 85px;
+        padding-left: 81px;
+    }
+}
+@media only screen and (max-width : 176px)  {}
